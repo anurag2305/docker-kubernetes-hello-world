@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:11.0.3
 ENV PORT 8080
 EXPOSE 8080
 RUN mkdir -p /opt/app
