@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: hello-world-pod
-        image: arungupta/helloworld-spring-boot:latest
+        image: anurag2305/docker-kubernetes-hello-world:latest
         ports: 
         - containerPort: 80
         - containerPort: 443
